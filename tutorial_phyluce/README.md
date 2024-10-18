@@ -183,6 +183,6 @@ phyluce_assembly_assemblo_spades  \
 		--memory 6 \
 		--log-path /home/fernanda/Desktop/uces_analises_teste/log_aula
 
-### IMPORTANTE: NAO RODAR NO SEU NOTEBOOK! Pode demorar muito tempo e travar todo o seu computador, voce pode rodar o comando para ver se esta funcionando e depois para com "Ctrl c" 
+### IMPORTANTE: NAO RODAR NO SEU NOTEBOOK! Pode demorar muito tempo e travar todo o seu computador, voce pode rodar o comando para ver se esta funcionando e depois parar com "Ctrl c" 
 ```
 
