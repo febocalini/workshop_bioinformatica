@@ -169,6 +169,7 @@ bwa index /home/fernanda/Desktop/uces_analises_teste/5_SNP_calling/Xiphocolaptes
 samtools faidx /home/fernanda/Desktop/uces_analises_teste/5_SNP_calling/Xiphocolaptes/exploded-fastas-xiphoc/SDB692-Xip-alb-MCNA-6076-BR-MG.unaligned.fasta
 
 #Create the reference dictionary file:
+# ATENCAO! o parametro "-Xmx2G" - designa a quantidade de RAM que será usada para rodar essa funcao (veja quanto tem disponivel)
 gatk --java-options "-Xmx2G" CreateSequenceDictionary --REFERENCE /home/fernanda/Desktop/uces_analises_teste/5_SNP_calling/Xiphocolaptes/exploded-fastas-xiphoc/SDB692-Xip-alb-MCNA-6076-BR-MG.unaligned.fasta
 
 # precisamos criar uma pasta onde serao guardados os arquivos temporarios de cada amostra, essa pasta deve conter subpastas com o nome de cada amostra
