@@ -149,18 +149,7 @@ Criar os arquivos BAMs fazendo um realinhamento com os clean reads
 conda deactivate
 
 # 6.1.instalando o ambiente para o gatk
-# usar o arquivo .yml da pasta programs
-cd ~ 
-conda env create -n gatk -f /home/fernanda/Desktop/uces_analises_teste/programs/gatk-4.2.0.0/gatkcondaenv.yml
-
-#ativar o ambiente
-conda activate gatk
-
-#instalar gatk *ver se precisa com conda list*
-#conda install bioconda::gatk4
-
-#instalar o samtools
-conda install bwa samtools=1.9
+# ver install_gatk+certo.sh
 
 ## 6.2. Formatar a referencia
 # criar index de samtools
