@@ -14,7 +14,7 @@ cd /home/fernanda/miniconda3/envs/gatk/bin
 # precisamos fazer um link para o executavel do gatk que esta dentro da pasta que voces baixaram na pasta programas
 # IMPORTANTE!! executar esse comando dentro da pasta bin do ambiente!
 
-# se precisar instar o programa ln
+# se precisar instalar o programa ln
 # sudo apt-get install ln
 ln -s /home/fernanda/Desktop/uces_analises_teste/programs/gatk-4.2.0.0/gatk
 
