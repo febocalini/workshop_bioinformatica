@@ -8,7 +8,9 @@ ls -lts
 
 # observe que todas as pastas tem um "_spades" no final e isso pode atrapalhar as analises subsequentes, por isso, precisamos renomear as pastas
 
-# eliminar o spades dos diretórios ## 
+# eliminar o spades dos diretórios ##
+# instalar o programa rename
+sudo apt-get install rename
 find . -type d -execdir rename 's/_spades//' '{}' \+
 
 #agora veja se o camando funcionou
