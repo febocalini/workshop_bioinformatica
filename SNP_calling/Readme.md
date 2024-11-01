@@ -13,7 +13,7 @@ ls -lts
 sudo apt-get install rename
 find . -type d -execdir rename 's/_spades//' '{}' \+
 
-#agora veja se o camando funcionou
+#agora veja se o comando funcionou
 ls 
 
 #como copiei apenas 3 diretorios da pasta assembly do cluster, nao temos uma pasta "contigs" com os symlinks do assembly de cada amostra, por isso vamos cria-la
