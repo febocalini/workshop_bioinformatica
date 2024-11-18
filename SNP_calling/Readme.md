@@ -1,3 +1,4 @@
+## para baixar  a pasta assembly: https://www.dropbox.com/scl/fo/8lk7wl2oxg8ts3h0jqrbi/ABvcw2yupY9RzDPafHubEg4?rlkey=kpadg6j0ttphpvgpzl66p04vd&dl=0
 
 # SNP calling - extracao de SNPs  a partir do assembly
 
