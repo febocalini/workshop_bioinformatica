@@ -73,7 +73,7 @@ scp /home/fernanda/meu_arquivo.txt fernanda@143.107.38.43:/home/fernanda/TRANSFE
 	# 1 - Sempre transferir para a pasta TRANSFER que fica dentro do gatekeeper
 	# 2 - Sempre apagar os arquivos depois que forem transferidos porque não tem muito espaço disponível no gatekeeper
 
-# 2. enviar do gatekeeper para o transfer:
+# 2. enviar do gatekeeper para o cluster:
 
 # acessar o gatekeeper:
 
