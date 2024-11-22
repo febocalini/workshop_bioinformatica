@@ -145,7 +145,7 @@ ssh -X fernanda@143.107.38.43
 #3. Transferir do gatekeeper para o cluster:
 rsync -a -P /home/fernanda/TRANSFER/3_assembly_spades fernanda@192.168.34.2:/home/fernanda/
 ````
-## Significado das opções usadas:
+### Significado das opções usadas:
 - **`-a`**: Modo de arquivamento (preserva permissões, datas e links simbólicos).
 - **`-P`**: -P (progress + partial), combinação de:
 	- **--progress**: Exibe o progresso detalhado da transferência, como percentual, taxa de transferência e tempo estimado.
