@@ -1,5 +1,5 @@
 
-## Usando o cluster MZUSP
+## Usando o cluster MZUSP01
 IMPORTANTE: Antes de começar a usar o cluster leia atentatamente o manual com todas as regras de utilização
 
 ### O que é SSH?
