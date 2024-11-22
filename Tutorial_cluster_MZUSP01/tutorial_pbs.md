@@ -108,7 +108,6 @@ qdel <job_id>
 ``` bash
 pbsnodes -a
 ````
-``
 ---
 
 ## **7. Exemplo de como fazer um pbs para rodar o assembly no phyluce**
