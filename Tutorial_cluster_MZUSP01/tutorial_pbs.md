@@ -204,11 +204,10 @@ sh bash_spadesP1_uces24.sh > stdout_assembly.txt 2> stderr_assembly.txt
 ```bash
 
 qsub pbs_assembly_aula.pbs
-    ```
+```
 ### 5. Monitore o job:
 ```bash
 qstat
 ```
-
 ---
 
