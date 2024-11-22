@@ -27,7 +27,7 @@ ssh -X fernanda@143.107.38.43
 
 #IMPORTANTE: a senha deve ser sempre digitada e não colada com ctrl v
 
-2) Uma vez dentro do gatekeeper, agora sim voce poderá acessaro cluster de fato:
+# 2) Uma vez dentro do gatekeeper, agora sim voce poderá acessaro cluster de fato:
 
 ssh -X fernanda@192.168.34.2
 
