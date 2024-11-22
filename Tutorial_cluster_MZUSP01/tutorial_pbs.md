@@ -207,7 +207,7 @@ qsub pbs_assembly_aula.pbs
     ```
 ### 5. Monitore o job:
 ```bash
-   qstat
+qstat
 ```
 
 ---
