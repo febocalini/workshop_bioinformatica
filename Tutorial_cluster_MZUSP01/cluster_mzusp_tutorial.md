@@ -50,10 +50,10 @@ Para sair do servidor remoto, digite:
 ```bash
 exit
 ```
-### Transferência de arquivos: usar os comandos `scp` ou `rsync`
+## Transferência de arquivos: usar os comandos `scp` ou `rsync`
 
 
-## **1. Usando `scp` (Secure Copy Protocol)**
+### **1. Usando `scp` (Secure Copy Protocol)**
 
 O `scp` é uma ferramenta simples para transferir arquivos de forma segura.
 
