@@ -1,0 +1,45 @@
+#!/usr/bin/sh
+
+# MZUSP01
+
+#################
+# PBS VARIABLES #
+#################
+
+#PBS -V
+#PBS -N assembly_aula
+#PBS -e assembly.stderr
+#PBS -o assembly.stdout
+#PBS -r n
+##PBS -q <workq|regular>
+#PBS -q workq
+##PBS -l <free|pack|scatter|vscatter>
+#PBS -l place=scatter
+##PBS -l select=<1-11>:ncpus=<1-64>:mpiprocs=<1-64>:mem=<gb>:host=<no1-no11>
+#PBS -l select=1:ncpus=64:mpiprocs=64:host=no7
+#PBS -l walltime=10000:00:00
+##FABRIC=<shm|sock|ssm|rdma|rdssm>
+FABRIC=rdma
+CORES=$[ `cat $PBS_NODEFILE | wc -l` ]
+NODES=$[ `uniq $PBS_NODEFILE | wc -l` ]
+cd $PBS_O_WORKDIR
+
+###################
+# LOG AND MODULES #
+###################
+
+printf "Time =  `date`\n" > $PBS_JOBNAME-$PBS_JOBID.LOG
+printf "PBS work directory = $PBS_O_WORKDIR\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+printf "PBS queue = $PBS_O_QUEUE\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+printf "PBS job ID = $PBS_JOBID\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+qstat -f $PBS_JOBID > $PBS_JOBID.TXT
+printf "PBS job name = $PBS_JOBNAME\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG 
+printf "Fabric interconnect selected = $FABRIC\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+printf "This job will run on $CORES processors\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+printf "List of nodes in $PBS_NODEFILE\n\n" >> $PBS_JOBNAME-$PBS_JOBID.LOG
+
+###########
+# COMMAND #
+###########
+
+sh bash_spadesP1_uces24.sh > stdout_assembly.txt 2> stderr_assembly.txt
