@@ -1,4 +1,4 @@
-# Tutorial - Alinhamento das sequencias de UCEs usando o phyluce para rodar os programas RAxMl, IQTree, Astral e GPhoCs 
+# Tutorial - Alinhamento das sequências de UCEs usando o phyluce para rodar os programas RAxMl, IQTree, Astral e GPhoCs 
 
 #### Tutorial adaptado do Phyluce: https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-1.html
 ```bash
@@ -12,7 +12,7 @@ source activate phyluce-1.7.3
 ```
 
 # 1.Create the data matrix configuration file 
-- aqui pode ser o mesmo criado durante o processo SNP calling, mas prestar atencao se ele inclui todos os taxons que sao necessarios nas analises filogeneticas (outgroups) - lembre-se que se voce removeu alguma amostra com o snpfiltR por estar errada ou muito ruim voce deve remove-la agora tambem.
+- aqui pode ser o mesmo criado durante o processo SNP calling, mas prestar atenção se ele inclui todos os taxons que são necessários nas analises filogenéticas (outgroups) - lembre-se que se voce removeu alguma amostra com o snpfiltR por estar errada ou muito ruim voce deve remove-la agora tambem.
 ```bash
 phyluce_assembly_get_match_counts \
     --locus-db /media/fernanda/KINGSTON/2024_UCEs_USP183203/4_UCEsearch_glauc_UCEs24/probe.matches.sqlite \
@@ -61,7 +61,7 @@ phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
 ```
 # 5. Alignments Summary stats 
 We can output summary stats for these alignments by running the following program: 
-- passo importante para observar a quantidade de alinhamentos em cada matriz com diferentes proporporcoes de missing data, assim pode-se escolher quais porcentagens serao usadas nos proximos passos
+- passo importante para observar a quantidade de alinhamentos em cada matriz com diferentes proporporções de missing data, assim pode-se escolher quais porcentagens serão usadas nos proximos passos
 ```bash
 phyluce_align_get_align_summary_data \
     --alignments /media/fernanda/KINGSTON/2024_UCEs_USP183203/7_alignments/Glaucidium/mafft-nexus-gbl-glauci \
