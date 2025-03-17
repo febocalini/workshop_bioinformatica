@@ -1,0 +1,9 @@
+datapath = /home/fernanda/EEMS_brejos/chiroxiphia/chiro_eems
+mcmcpath = /home/fernanda/EEMS_brejos/chiroxiphia/d600/output_run2
+nIndiv = 27
+nSites = 2276
+nDemes = 600
+diploid = true
+numMCMCIter = 20000000
+numBurnIter = 1000000
+numThinIter = 9999
