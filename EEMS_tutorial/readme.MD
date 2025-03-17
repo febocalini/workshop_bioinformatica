@@ -3,7 +3,7 @@
 
 ## 1. Instalar o EEMS 
 
-No cluster, crie um ambiente no conda para o EEMS seguindo este tutorial: https://github.com/febocalini/workshop_bioinformatica/blob/main/Tutorial_cluster_MZUSP01/tutorial_pbs.md
+No cluster, crie um ambiente no conda para o EEMS seguindo este tutorial: https://github.com/febocalini/workshop_bioinformatica/blob/main/Tutorial_cluster_MZUSP01/conda_env_eems.sh
 
 ## 2. Transformar o vcf em diffs
 
