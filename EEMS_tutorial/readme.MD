@@ -17,9 +17,9 @@ O arquivo .coord é um arquivo com apenas as coordenadas das amostras utilizadas
 
 ## 4. Criar o arquivo .outer
 
-O arquivo .outer será a região do mapa onde você gostaria que programa plotasse os resultados. Pode ser, por exemplo, toda a America do Sul. 
+O arquivo .outer será a região do mapa onde você gostaria que programa considerasse para análise. Pode ser, por exemplo, toda a America do Sul. 
 
-Um tutorial de como criar um polígono no Qgis pode ser enconrado em: https://github.com/mtop/speciesgeocoder/wiki/Tutorial-for-creating-polygons-in-QGIS
+Um tutorial de como criar um polígono no Qgis pode ser encontrado em: https://github.com/mtop/speciesgeocoder/wiki/Tutorial-for-creating-polygons-in-QGIS
 
 Exemplo de um arquivo .outer: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/chiro_eems.outer
 
