@@ -57,6 +57,12 @@ Criar um pbs como em: https://github.com/febocalini/workshop_bioinformatica/blob
 qsub pbs_eems_chiro.pbs
 
 ``` 
+# 10. Plotar os resultados no R
+
+Usar o pacote rEEMSplots (disponível em: https://github.com/dipetkov/eems/tree/master/plotting)
+
+Exemplo de como plotar os resultados:
+https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/ploteems_chiro.R
 
 
 
