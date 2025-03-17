@@ -2,9 +2,11 @@
 # Tutorial EEMS
 
 ## 1. Instalar o EEMS 
+
 No cluster, crie um ambiente no conda para o EEMS seguindo este tutorial: https://github.com/febocalini/workshop_bioinformatica/blob/main/Tutorial_cluster_MZUSP01/tutorial_pbs.md
 
 ## 2. Transformar o vcf em diffs
+
 Use a matriz unliked 95% completa (de preferência).
 
 Transforme o arquivo .vcf em .diffs seguindo esse script: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/genind2diff_chiro.R
@@ -25,10 +27,12 @@ Exemplo de um arquivo .outer: https://github.com/febocalini/workshop_bioinformat
 
 Para cada valor de deme testado, criar uma pasta pasta para salvar os resultados. Exemplo d200 d400 d600
 
-## 6. Criar as pastas para salvar 3 corridas para deme
+## 6. Criar as pastas para salvar 3 corridas para cada deme
+
 Na pasta de cada deme criar 3 pastas para salvar os outputs: output_run1, output_run2, output_run3
 
 ## 7. Criar os arquivos de configuração (.in) para cada corrida 
+
 Dentro da pasta de cada deme criar 3 arquivos de configuração (.in) para cada corrida. Exemplo aqui: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/d200/chiro_eems_chain1.in
 
 ## 8. Rodar o EEMS
