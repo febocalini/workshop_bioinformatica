@@ -28,10 +28,10 @@ Para cada valor de deme testado, criar uma pasta pasta para salvar os resultados
 ## 6. Criar as pastas para salvar 3 corridas para deme
 Na pasta de cada deme criar 3 pastas para salvar os outputs: output_run1, output_run2, output_run3
 
-# 7. Criar os arquivos de configuração (.in) para cada corrida 
+## 7. Criar os arquivos de configuração (.in) para cada corrida 
 Dentro da pasta de cada deme criar 3 arquivos de configuração (.in) para cada corrida. Exemplo aqui: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/d200/chiro_eems_chain1.in
 
-# 8. Rodar o EEMS
+## 8. Rodar o EEMS
 
 ```
 ##ir para a pasta com o arquivos executável
@@ -44,7 +44,7 @@ cd /Users/imac/eems/runeems_snps/src
 ```
 Você pode rodar uma corrida de cada vez como no exemplo acima criar um arquivo .sh para rodar todas as corridas de uma vez como em: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/run_eems_chiro.sh
 
-# 9. Criar um .pbs e submeter o job para o cluster
+## 9. Criar um .pbs e submeter o job para o cluster
 
 Criar um pbs como em: https://github.com/febocalini/workshop_bioinformatica/blob/main/EEMS_tutorial/Pasta_exemplo_EEMS/pbs_eems_chiro.pbs
 
