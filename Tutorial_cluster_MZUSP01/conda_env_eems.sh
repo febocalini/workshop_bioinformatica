@@ -34,6 +34,9 @@ EIGEN_INC = $(CONDA_PREFIX)/include/eigen3
 BOOST_INC = $(CONDA_PREFIX)/include
 BOOST_LIB = $(CONDA_PREFIX)/lib
 
+### compliar a função:
+make linux
+
 #Faca um teste:
 
 ./runeems_snps
