@@ -68,7 +68,7 @@ sed -i 's/_//g' chiro95_GPHOCS.txt #substituir _ por NADA - usar esse passo se o
 
 ````
 
-## 4. Criar o arquivo de configuracao .ctl
+## 4. Criar o arquivo de configuração .ctl
 
 Utilizar como exemplo o arquivo: `chiro_gphocs_m1.ctl`
 
