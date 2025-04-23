@@ -35,7 +35,7 @@ make
 ```
 
 ## 2. Fazer o alinhamento das sequências
-Fazer o alinhamento das sequências de UCEs ate o passo 8 do tutorial (recomendo usar a matriz 95%)
+Fazer o alinhamento das sequências de UCEs até o passo 8 do tutorial (recomendo usar a matriz 95%)
 
 Tutorial alinhamento: https://github.com/febocalini/workshop_bioinformatica/blob/main/Alignment_phyluce/alignment_tutorial.md
 
