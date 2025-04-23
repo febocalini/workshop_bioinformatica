@@ -34,14 +34,14 @@ make
 
 ```
 
-## 2. Fazer o alinhamento das sequencias
-Fazer o alinhamento das sequencias de UCEs ate o passo 8 do tutorial (recomendo usar a matriz 95%)
+## 2. Fazer o alinhamento das sequências
+Fazer o alinhamento das sequências de UCEs ate o passo 8 do tutorial (recomendo usar a matriz 95%)
 
 Tutorial alinhamento: https://github.com/febocalini/workshop_bioinformatica/blob/main/Alignment_phyluce/alignment_tutorial.md
 
 ## 3. Converter o alinhamento em uma matriz concatenada para o G-PhoCs
 
-A funcao que converte precisa do python 2.7, por isso, precisamos criar um ambiente no conda que tenha o python 2.7 como padrao
+A função que converte precisa do python 2.7, por isso, precisamos criar um ambiente no conda que tenha o python 2.7 como padrão
  
 ```` 
 
@@ -51,7 +51,7 @@ source activate py27
 
 ````
 
-Usar a funcao `gphocs_from_phy.py` disponivel em para converter o alinhamento
+Usar a função `gphocs_from_phy.py` disponível em para converter o alinhamento
 
 ```` 
 python gphocs_from_phy.py /media/fernanda/BOCALINI_HD/Part3_UCEs_2023/8_GPhocs/Chiroxiphia/phylip-chiro-95p-gp /media/fernanda/KINGSTON/2024_UCEs_USP183203/10_Gphocs/gphocs_brejos2025/chiroxiphia/chiro95_GPHOCS.txt
@@ -64,7 +64,7 @@ A matriz gerada precisa de alguns ajustes antes de dar entrada no programa:
 sed -i 's/?/N/g' chiro95_GPHOCS.txt #substituir ? por N
 sed -i 's/-/N/g' chiro95_GPHOCS.txt #substituir - por N
 
-sed -i 's/_//g' chiro95_GPHOCS.txt #substituir _ por NADA - usar esse passo se o nome das suas sequencias for muito longo o que pode dar erro no programa - assim ele vai substituir o "_" por nada
+sed -i 's/_//g' chiro95_GPHOCS.txt #substituir _ por NADA - usar esse passo se o nome das suas amostras for muito longo o que pode dar erro no programa - assim ele vai substituir o "_" por nada
 
 ````
 
@@ -78,7 +78,7 @@ Modificar:
 >  2. `trace-file` – nome do output que será gerado
 > 3. `num-loci` – número de loci da sua matriz
 > 4. `mcmc-iterations` – número de iterações – recomendo 5 milhões, mas vocês podem tentar rodar com 2 milhões se quiserem resultados mais rápidos
-> 5. `CURRENT-POPS-START` – `POP-START` – nome das diferentes populações – lista quais amostras estão nas diferentes populações – o nome da amostra sempre será seguido por um "d", que significa que o indivíduo é diploide
+> 5. `CURRENT-POPS-START` – `POP-START` – nome das diferentes populações – lista quais amostras estão nas diferentes populações – o nome da amostra sempre será seguido por um "d", que significa que o indivíduo é diplóide.
 > 6. `ANCESTRAL-POPS-START` – mostra como cada população vai coalescer – se tiver mais de duas populações, vai reconstruir a árvore
 > 7. `MIG-BANDS-START` – descreve a direção das migrações entre populações que o programa deve considerar
 
