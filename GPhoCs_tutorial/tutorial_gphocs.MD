@@ -51,7 +51,7 @@ source activate py27
 
 ````
 
-Usar a função `gphocs_from_phy.py` disponível em para converter o alinhamento
+Usar a função `gphocs_from_phy.py` disponível em https://github.com/febocalini/workshop_bioinformatica/edit/main/GPhoCs_tutorial/gphocs_from_phy.py para converter o alinhamento
 
 ```` 
 python gphocs_from_phy.py /media/fernanda/BOCALINI_HD/Part3_UCEs_2023/8_GPhocs/Chiroxiphia/phylip-chiro-95p-gp /media/fernanda/KINGSTON/2024_UCEs_USP183203/10_Gphocs/gphocs_brejos2025/chiroxiphia/chiro95_GPHOCS.txt
