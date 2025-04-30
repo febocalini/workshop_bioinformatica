@@ -37,6 +37,8 @@ phyluce_assembly_get_fastas_from_match_counts \
 
 # 3. Align the data - turn off trimming and output FASTA 
 ```bash
+
+#### ATENÇÃO: substitua o argumento --taxa pelo número de amostras que você tem!!!
 phyluce_align_seqcap_align \
     --input /media/fernanda/KINGSTON/2024_UCEs_USP183203/7_alignments/Glaucidium/glaucidium_align_incomp.fasta \
     --output /media/fernanda/KINGSTON/2024_UCEs_USP183203/7_alignments/Glaucidium/mafft-fasta-glauci \
