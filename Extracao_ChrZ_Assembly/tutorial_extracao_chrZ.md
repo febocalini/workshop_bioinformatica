@@ -6,6 +6,10 @@ Este tutorial descreve como preparar e identificar contigs do cromossomo Z a par
 
 - Conda instalado
 - BLAST+ instalado
+  ```bash
+  sudo apt update
+sudo apt install ncbi-blast+
+```
 - Dados de referência do cromossomo Z disponíveis em: https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
 
 ## 🐍 Criar ambiente Conda com Python 2.7
