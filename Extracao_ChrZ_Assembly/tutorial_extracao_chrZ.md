@@ -71,7 +71,8 @@ done
 ### 5. Rode o BLAST contra a referência do cromossomo Z
 
 Utilize a referência do cromossomo Z para identificar os contigs relevantes em cada amostra
-Db disponivel em:
+Db disponívelem:
+https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
 
 ```bash
 for dir in */; do
@@ -85,7 +86,7 @@ done
 ```
 
 
-### 6. Retirar as sequencias de matches dos FASTAS originais
+### 6. Retirar as sequências de matches dos FASTAS originais
 ```bash
 for dir in */; do
     for r in blastout; do
@@ -120,7 +121,7 @@ for dir in */; do
 done
 ```
 
-### 9. Transforma arquivos FASTA em tabular (um por linha, mais fácil de gerenciar), funcao dentro da pasta db https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
+### 9. Transforma arquivos FASTA em tabular (um por linha, mais fácil de gerenciar), função dentro da pasta db https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
 
 ```bash
 for dir in */; do
