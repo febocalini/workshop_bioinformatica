@@ -6,7 +6,7 @@ Este tutorial descreve como preparar e identificar contigs do cromossomo Z a par
 
 - Conda instalado
 - BLAST+ instalado
-- Dados de referência do cromossomo Z disponíveis
+- Dados de referência do cromossomo Z disponíveis em: https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
 
 ## 🐍 Criar ambiente Conda com Python 2.7
 
@@ -116,7 +116,7 @@ for dir in */; do
 done
 ```
 
-### 9. Transforma arquivos FASTA em tabular (um por linha, mais fácil de gerenciar)
+### 9. Transforma arquivos FASTA em tabular (um por linha, mais fácil de gerenciar), funcao dentro da pasta db https://github.com/febocalini/workshop_bioinformatica/tree/main/Extracao_ChrZ_Assembly/db
 
 ```bash
 for dir in */; do
