@@ -39,6 +39,17 @@ Fazer o alinhamento das sequências de UCEs até o passo 8 do tutorial (recomend
 
 Tutorial alinhamento: https://github.com/febocalini/workshop_bioinformatica/blob/main/Alignment_phyluce/alignment_tutorial.md
 
+### 2.1. Converter o alinhamento em phylip
+```bash
+phyluce_align_convert_one_align_to_another \
+   --alignments /media/fernanda/KINGSTON/2024_UCEs_USP183203/7_alignments/Glaucidium/mafft-nexus-gbl-glauci-95p-clean \
+   --output /media/fernanda/KINGSTON/2024_UCEs_USP183203/7_alignments/Glaucidium/phylip-glauci-95p-gp \
+   --input-format nexus \
+   --output-format phylip-relaxed \
+   --cores 3 \
+   --log-path /media/fernanda/KINGSTON/2024_UCEs_USP183203/logs_uces24
+```
+
 ## 3. Converter o alinhamento em uma matriz concatenada para o G-PhoCs
 
 A função que converte precisa do python 2.7, por isso, precisamos criar um ambiente no conda que tenha o python 2.7 como padrão
