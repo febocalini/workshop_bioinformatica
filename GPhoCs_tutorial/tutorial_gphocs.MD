@@ -107,7 +107,13 @@ qsub pbs_chiro95_m1.pbs
 Os passos 2, 3 e 4 podem ser feitos no seu computador, recomendo criar uma pasta com todos os arquivos de entrada e depois transferir para o cluster
 
  
+### 6. Análise dos resultados
 
+- Baixar o programa Tracer para avaliar as cadeias de Markov e verificar se o ESS dos parâmetros está acima de 200
+
+https://github.com/beast-dev/tracer/releases/tag/v1.7.2
+
+- No programa Tracer salvar a tabela com os valores dos parâmetros, abrir a tabela no Excel e transformar os valores de theta e Tau em tamanho efetivo populacional e tempo de divergência de acordo com suas respectivas fórmulas. Ver exemplo no arquivo: `xipho_m1_gphocs_param.ods`
 
 
 
