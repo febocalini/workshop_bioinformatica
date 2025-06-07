@@ -1,0 +1,78 @@
+Model=model1a
+Log_likelihood=-1846.499099570347
+n_parameters=3
+Parameters_estimates:
+ParamsDict({'n_bt': 50000.00000000001, 'tdiv': 76749.86013016802, 'g_S': 5.921341308066109e-06})
+
+Model=model1b
+Log_likelihood=-1798.3316533989882
+n_parameters=3
+Parameters_estimates:
+ParamsDict({'n_bt': 26770.03404422686, 'tdiv': 62152.52459626758, 'g_N': 1.0000000000000243e-06})
+
+Model=model1c
+Log_likelihood=-1847.4833071949358
+n_parameters=4
+Parameters_estimates:
+ParamsDict({'n_bt': 50000.00000000001, 'tdiv': 73664.49663050915, 'g_S': 7.024408328214346e-06, 'g_N': 1.0000000000000243e-06})
+
+Model=model1d
+Log_likelihood=-1800.7417798263332
+n_parameters=4
+Parameters_estimates:
+ParamsDict({'n_bt': 34122.64153295619, 'tdiv': 61624.02382449008, 'g_S': 1.0000000000000243e-06, 'g_N': 1.0000000000000243e-06})
+
+Model=model1e
+Log_likelihood=-1839.2135961070135
+n_parameters=7
+Parameters_estimates:
+ParamsDict({'n_bt': 50000.00000000001, 'tmig_N_S': 24169.104278938015, 'tmig_S_N': 122585.87030933758, 'mfrac_N_S': 0.2, 'mfrac_S_N': 0.00023271600237489287, 'tdiv': 122668.49909093828, 'g_S': 1e-06})
+
+Model=model1f
+Log_likelihood=-1794.145053592813
+n_parameters=7
+Parameters_estimates:
+ParamsDict({'n_bt': 21597.139942515678, 'tmig_N_S': 21514.25893314286, 'tmig_S_N': 95059.45943839393, 'mfrac_N_S': 0.2, 'mfrac_S_N': 1.819637371652652e-06, 'tdiv': 96568.9815546136, 'g_N': 1.0000000000000243e-06})
+
+Model=model1g
+Log_likelihood=-1840.547994007086
+n_parameters=8
+Parameters_estimates:
+ParamsDict({'n_bt': 50000.00000000001, 'tmig_N_S': 24198.641516244854, 'tmig_S_N': 26693.57278298171, 'mfrac_N_S': 0.2, 'mfrac_S_N': 4.352933582123091e-07, 'tdiv': 114816.39251133519, 'g_S': 1.0000000000000243e-06, 'g_N': 1.0000000000000243e-06})
+
+Model=model1h
+Log_likelihood=-1797.9431252087033
+n_parameters=8
+Parameters_estimates:
+ParamsDict({'n_bt': 6262.164169212683, 'tmig_N_S': 23209.553114080423, 'tmig_S_N': 77061.36487120621, 'mfrac_N_S': 0.2, 'mfrac_S_N': 0.01643404802521198, 'tdiv': 95681.78859536986, 'g_S': 1e-06, 'g_N': 1e-06})
+
+Model=model2b
+Log_likelihood=-1798.3316533989878
+n_parameters=2
+Parameters_estimates:
+ParamsDict({'tdiv': 62152.5217540327, 'g_N': 1.0000000000000243e-06})
+
+Model=model2c
+Log_likelihood=-1798.3316533989878
+n_parameters=2
+Parameters_estimates:
+ParamsDict({'tdiv': 62152.5217540327, 'g_N': 1.0000000000000243e-06})
+
+Model=model2d
+Log_likelihood=-1794.1450537799287
+n_parameters=6
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 21513.699265028707, 'tmig_S_N': 87467.37627510916, 'mfrac_N_S': 0.2, 'mfrac_S_N': 3.216683050734361e-07, 'tdiv': 96569.62453796425, 'g_N': 1.0000000000000243e-06})
+
+Model=model3a
+Log_likelihood=-1797.4439561420645
+n_parameters=1
+Parameters_estimates:
+ParamsDict({'tdiv': 64828.23204796742})
+
+Model=model3b
+Log_likelihood=-1942.6030598170298
+n_parameters=5
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 108252.20825304324, 'tmig_S_N': 5000.013331872912, 'mfrac_N_S': 0.0020334656581612255, 'mfrac_S_N': 0.2, 'tdiv': 108252.39545525885})
+
