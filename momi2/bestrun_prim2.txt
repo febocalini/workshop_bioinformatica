@@ -1,0 +1,90 @@
+Model=model1a
+Log_likelihood=-1581.5570176107174
+n_parameters=4
+Parameters_estimates:
+ParamsDict({'n_bt': 22005.455523831755, 'tdiv': 43680.9989068148, 'g_S': 2.5513107969010934e-05, 'n_anc': 10000000.000000006})
+
+Model=model1b
+Log_likelihood=-1582.7592208092383
+n_parameters=4
+Parameters_estimates:
+ParamsDict({'n_bt': 2055.829209029238, 'tdiv': 44260.23794800106, 'g_N': 1e-06, 'n_anc': 10000000.000000006})
+
+Model=model1c
+Log_likelihood=-1582.2901921082946
+n_parameters=5
+Parameters_estimates:
+ParamsDict({'n_bt': 5393.38911011457, 'tdiv': 5000.000000000003, 'g_S': 0.0008463498853631651, 'g_N': 0.0006841534798039251, 'n_anc': 10000000.000000006})
+
+Model=model1d
+Log_likelihood=-1581.5898907165054
+n_parameters=5
+Parameters_estimates:
+ParamsDict({'n_bt': 18077.990338833148, 'tdiv': 41529.61763273039, 'g_S': 2.890734413589345e-05, 'g_N': 2.0779757420400585e-06, 'n_anc': 10000000.000000006})
+
+Model=model1e
+Log_likelihood=-1582.9093232238376
+n_parameters=8
+Parameters_estimates:
+ParamsDict({'n_bt': 42453.784108381034, 'tmig_N_S': 38813.96335690548, 'tmig_S_N': 38813.88785441275, 'mfrac_N_S': 0.06526191969713184, 'mfrac_S_N': 0.028436692009961767, 'tdiv': 45761.86545691059, 'g_S': 2.081350535309411e-05, 'n_anc': 10000000.000000006})
+
+Model=model1f
+Log_likelihood=-1586.9741112940403
+n_parameters=8
+Parameters_estimates:
+ParamsDict({'n_bt': 37606.58068380664, 'tmig_N_S': 10669.809105295215, 'tmig_S_N': 5469.009764126187, 'mfrac_N_S': 0.16009534565392783, 'mfrac_S_N': 0.000465713230647589, 'tdiv': 10833.109865901713, 'g_N': 0.00022107141561139996, 'n_anc': 10000000.000000006})
+
+Model=model1g
+Log_likelihood=-1594.2938622643346
+n_parameters=9
+Parameters_estimates:
+ParamsDict({'n_bt': 21533.2475726285, 'tmig_N_S': 34180.6526998528, 'tmig_S_N': 34180.6525242354, 'mfrac_N_S': 0.499999999827194, 'mfrac_S_N': 0.27934498251586837, 'tdiv': 51363.8236796672, 'g_S': 1e-06, 'g_N': 1.1430715274710935e-06, 'n_anc': 10000000.000000006})
+
+Model=model1h
+Log_likelihood=-1581.889150300112
+n_parameters=9
+Parameters_estimates:
+ParamsDict({'n_bt': 34824.138060699224, 'tmig_N_S': 24799.368951409655, 'tmig_S_N': 5007.436977425903, 'mfrac_N_S': 0.45294529134853073, 'mfrac_S_N': 3.724011566530764e-35, 'tdiv': 24803.280622249626, 'g_S': 8.135456442468262e-05, 'g_N': 4.1484537100384585e-05, 'n_anc': 10000000.000000006})
+
+Model=model2a
+Log_likelihood=-1955.7737780544298
+n_parameters=3
+Parameters_estimates:
+ParamsDict({'tdiv': 56495.21545483313, 'g_S': 1e-06, 'n_anc': 56952.870677825376})
+
+Model=model2b
+Log_likelihood=-1582.7592208012181
+n_parameters=3
+Parameters_estimates:
+ParamsDict({'tdiv': 44260.73945810191, 'g_N': 1e-06, 'n_anc': 10000000.000000006})
+
+Model=model2c
+Log_likelihood=-1659.627320197187
+n_parameters=7
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 5015.4944606390445, 'tmig_S_N': 5000.877038168995, 'mfrac_N_S': 9.576123990576903e-09, 'mfrac_S_N': 0.1477504801207887, 'tdiv': 44259.50235273558, 'g_S': 1.0000000000000243e-06, 'n_anc': 10000000.000000006})
+
+Model=model2d
+Log_likelihood=-1585.7667999604978
+n_parameters=7
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 12183.489763044741, 'tmig_S_N': 5000.016319007552, 'mfrac_N_S': 0.03027418849336853, 'mfrac_S_N': 0.015743085197117694, 'tdiv': 50949.76959193659, 'g_N': 1e-06, 'n_anc': 10000000.000000006})
+
+Model=model2e
+Log_likelihood=-1582.3235053223193
+n_parameters=8
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 22527.441651849833, 'tmig_S_N': 5000.054799408884, 'mfrac_N_S': 0.011456064982057007, 'mfrac_S_N': 0.0028642936216385514, 'tdiv': 43545.36248890938, 'g_N': 1e-06, 'g_S': 2.4373570953140505e-05, 'n_anc': 10000000.000000006})
+
+Model=model3a
+Log_likelihood=-1582.6785178850566
+n_parameters=2
+Parameters_estimates:
+ParamsDict({'tdiv': 45265.40410401317, 'n_anc': 10000000.000000006})
+
+Model=model3b
+Log_likelihood=-1661.120633167722
+n_parameters=6
+Parameters_estimates:
+ParamsDict({'tmig_N_S': 33265.68226475014, 'tmig_S_N': 33265.68205129126, 'mfrac_N_S': 0.4998811448291003, 'mfrac_S_N': 0.3678800636117294, 'tdiv': 33265.68226475014, 'n_anc': 10000000.000000006})
+
